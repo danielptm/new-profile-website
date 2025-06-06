@@ -1,0 +1,28 @@
+.left-container {
+    width: 35%;
+    position: fixed;
+    height: 100%;
+    padding: 75px 50px 50px 50px;
+    left: 0;
+}
+h1 {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 22px;
+}
+
+p {
+    padding-top: 10px;
+    font-weight: 100;
+}
+
+.sm {
+    display: flex;
+    flex-direction: row;
+    & > * {
+        margin-right: 10px;
+    }
+}

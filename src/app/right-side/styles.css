@@ -1,0 +1,6 @@
+.right-side-container {
+    position: absolute;
+    right: 0;
+    width: 65%;
+    padding: 75px 50px 50px 50px;
+}
