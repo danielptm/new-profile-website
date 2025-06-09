@@ -6,23 +6,25 @@ import Image from "next/image";
 
 const LeftSide = () => {
     return(
-        <div className="left-container">
+        <div className="left-container max-w-[400px]">
             <h1>Daniel Tuttle</h1>
             <h2>Fullstack Software Engineer</h2>
             <p>I build systems from the custom css to the high level architecture and everything in between.</p>
-            <div className='sm'>
-                <Image
-                    width={30}
-                    height={30}
-                    src={li} />
-                <Image
-                    width={30}
-                    height={30}
-                    src={gh} />
-                <Image
-                    width={30}
-                    height={30}
-                    src={turtle} />
+            <div className="image-container">
+                <div className='sm'>
+                    <Image
+                        width={30}
+                        height={30}
+                        src={li} />
+                    <Image
+                        width={30}
+                        height={30}
+                        src={gh} />
+                    <Image
+                        width={30}
+                        height={30}
+                        src={turtle} />
+                </div>
             </div>
         </div>
     )

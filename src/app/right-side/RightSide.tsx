@@ -1,7 +1,9 @@
 import './styles.css'
+import Experience from "@/app/right-side/experience/Experience";
 const RightSide = () => {
     return (
-        <div className={'right-side-container'}>
+        <div className={'absolute right-0 w-[65%] max-w-[900px]'}>
+            <div className={"m-5 max-w-[700px]"}>
             <p>I’m a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability.
                 <br/>
                 <br/>
@@ -35,6 +37,15 @@ const RightSide = () => {
                 <br/>
                 In my spare time, I’m usually climbing, reading, hanging out with my wife and two cats, or running around Hyrule searching for Korok seeds.
             </p>
+            </div>
+            <div className={"max-w-[700px]"}>
+                <h2 className={"ml-5 mb-2"}>Experience</h2>
+                <Experience />
+            </div>
+            <div className={"max-w-[700px]"}>
+                <h2 className={"ml-5 mb-2"}>Education</h2>
+                <Experience />
+            </div>
         </div>
     )
 }

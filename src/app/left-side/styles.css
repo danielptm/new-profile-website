@@ -19,9 +19,15 @@ p {
     font-weight: 100;
 }
 
+.image-container {
+    position: absolute;
+    bottom: 30px;
+}
+
 .sm {
     display: flex;
     flex-direction: row;
+    transform: translateX(90px);
     & > * {
         margin-right: 10px;
     }
