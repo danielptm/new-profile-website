@@ -16,11 +16,11 @@ const RightSide = () => {
                 I thrive at the intersection of engineering, product thinking, and real-world impact.</p>
             </div>
             <div className={"max-w-[700px] mt-[30px]"}>
-                <h2 className={"ml-5 mb-2"}>Experience</h2>
+                <h2 className={"ml-5 mb-2 text-[#588C87]"}>Experience</h2>
                 <Experience />
             </div>
             <div className={"max-w-[700px] mt-[30px]"}>
-                <h2 className={"ml-5 mb-2"}>Education</h2>
+                <h2 className={"ml-5 mb-2 text-[#588C87]"}>Education</h2>
                 <Education />
             </div>
         </div>
