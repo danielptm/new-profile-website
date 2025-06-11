@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={"bg-[url('../../public/turtles.svg')] bg-no-repeat bg-cover bg-center min-h-screen"}>
       <body>
         {children}
       </body>

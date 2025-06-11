@@ -37,6 +37,7 @@
 
 body, html {
   background: var(--background);
+  background: url("../../public/turtles.svg");
   color: rgb(229, 231, 235);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
