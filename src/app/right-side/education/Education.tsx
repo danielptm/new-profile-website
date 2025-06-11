@@ -1,9 +1,9 @@
 import Card from "@/app/right-side/card/Card";
 import {d} from '../../../../public/data'
 
-const Experience = () => {
+const Education = () => {
     return (
-        d.experience.map(e => {
+        d.education.map(e => {
             return (
                 <Card
                     title={e.title}
@@ -18,4 +18,4 @@ const Experience = () => {
     )
 }
 
-export default Experience;
+export default Education;
