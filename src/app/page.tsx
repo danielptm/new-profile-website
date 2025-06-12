@@ -8,9 +8,11 @@ import {useEffect} from "react";
 export default function Home() {
 
   return (
-    <div>
-        <LeftSide />
-        <RightSide />
-    </div>
+    <>
+        <div>
+            <LeftSide />
+            <RightSide />
+        </div>
+    </>
   );
 }

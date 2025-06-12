@@ -49,7 +49,14 @@ export const d = {
       description: "I received interdisciplinary training at the intersection of social science and medicine, jointly offered by Stockholm University and Karolinska Institutet. Their education focused on understanding and analyzing health inequalities rooted in social structures such as education, income, work, and ethnicity. Through coursework and research, they explored how these social determinants impact health outcomes across populations. The program emphasized collaboration across fields like sociology, psychology, political science, and public health. Students also engaged in critical dialogue and research dissemination aimed at influencing both academic and public understanding of health equity.",
       dateRange: "June 2020 - May 2025",
       link: "https://www.su.se/department-of-public-health-sciences/about-the-department/centres-and-other-units/centre-for-health-equity-studies-chess-1.572995",
-      skills: ["Public health", "Data analytics/science"]
+      skills: ["Public health", "Data analytics/science", "Research"]
+    },
+    {
+      title: "Bachelor of Arts in Anthropology – University of Washington",
+      description: "I studied the full spectrum of human experience through an interdisciplinary lens, combining biological, cultural, and historical perspectives. Gained deep insight into the diversity of human societies across time and geography, with a focus on understanding what connects and differentiates us as a species. Developed strong analytical and research skills by examining everything from ancient civilizations to modern social structures. This broad academic foundation fostered critical thinking, cultural awareness, and a global mindset—essential tools for navigating and contributing to an increasingly interconnected world.",
+      dateRange: "September 2008 - December 2011",
+      link: "https://anthropology.washington.edu/undergraduate-program",
+      skills: ["Research"]
     }
   ]
 }
