@@ -1,6 +1,14 @@
 import Skill from "@/app/right-side/skill/Skill";
 
-const Card = ({title, description, dateRange, link, skills}) => {
+interface CardProps {
+    title: string,
+    description: string,
+    dateRange: string,
+    link: string,
+    skills: string[]
+}
+
+const Card = ({title, description, dateRange, link, skills}: CardProps) => {
     return(
         <a target="_blank" href={link} className={'flex flex-row w-full max-w-[700px] hover:bg-[#162443] rounded-md cursor-pointer pl-5 pt-7 pr-5 pb-7 '}>
             <div className={'text-s min-w-[100px]'}>{dateRange}</div>
