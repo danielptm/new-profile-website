@@ -8,7 +8,7 @@ const Card = ({title, description, dateRange, link, skills}) => {
                 <div className={"ml-10 text-2xl"}>{title}</div>
                 <div className={"ml-10 text-md break-word"}>{description}</div>
                 <div className={"flex flex-row ml-10, flex-wrap pl-8"}>
-                    {skills.map(s => <div className={"ml-1"}><Skill text={s}/></div>)}
+                    {skills.map((s, i) => <div key={i} className={"ml-1"}><Skill text={s}/></div>)}
                 </div>
             </div>
         </a>

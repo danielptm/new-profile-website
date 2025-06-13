@@ -32,3 +32,24 @@ p {
         margin-right: 10px;
     }
 }
+
+@media only screen and (max-width: 800px) {
+    .left-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+        align-items: center;
+    }
+    .image-container {
+        position: relative;
+    }
+    .sm {
+        margin-top: 70px;
+        transform: translateX(0px);
+
+    }
+}
+

@@ -26,7 +26,14 @@ export const d = {
       description: "As a Full-Stack Engineer (Java/Angular), I built and deployed critical features for Claims and Automated Medical Underwriting apps on Azure with Kubernetes. I led key frontend and backend enhancements that supported multi-million dollar operations. Deeply involved in CI/CD and DevOps, I streamlined pipelines, improved system reliability, and boosted delivery speed across environments.",
       dateRange: "June 2020 - June 2022",
       link: "https://www.standard.com/",
-      skills: ["Angular", "Java", "Azure", "Azure devops", "Kubernetes"]
+      skills: ["Angular", "Java", "Azure", "Azure devops", "Kubernetes", "Terraform", "Mongodb", "Cosmosdb"]
+    },
+    {
+      title: "Nike",
+      description: "At Nike, I worked as a Full-Stack Software Engineer where I played a key role in building high-performance data processing pipelines that powered an internal analytics platform used across the company. I developed and maintained RESTful APIs that delivered real-time pricing information to Nike retail stores and nike.com, directly supporting millions of customer interactions and transactions. My work involved designing and deploying scalable Java microservices on AWS, ensuring our systems were resilient, performant, and ready to handle the demands of a global retail leader. Collaborating closely with cross-functional teams, I helped drive core backend architecture that aligned with Nike’s fast-paced, data-driven digital strategy.",
+      dateRange: "October 2018 - June 2020",
+      link: "https://www.nike.com/",
+      skills: ["React", "Java", "AWS", "SWS", "S3", "Dynamodb", "Terraform"]
     }
   ],
   education: [

@@ -2,3 +2,10 @@
     position: absolute;
     right: 0;
 }
+
+@media only screen and (max-width: 800px) {
+    .right-container {
+        position: relative;
+        width: 100%;
+    }
+}
