@@ -13,22 +13,14 @@ RUN npm run build
 ## -------- Stage 2: Production image --------
 FROM node:20-alpine AS runner
 
-# Set environment variables
-ENV NODE_ENV=production
-ENV PORT=3000
-
-# Set working directory
 WORKDIR /app
-
-# Only copy necessary files from the build stage
+ENV NODE_ENV production
+# Next.js standalone output copies necessary files to .next/standalone
+COPY --from=builder /app/.next/standalone ./
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/.next ./.next
-COPY --from=builder /app/package.json package.json
 
-RUN npm i next
-
-# Expose the port the app runs on
+# Expose the port your Next.js app listens on
 EXPOSE 3000
 
 # Start the Next.js server
-CMD ["npm", "run", "start"]
+CMD ["node", "server.js"]
